@@ -1,4 +1,5 @@
 # Multiome Analysis for 10X Data (RNA + ATAC)
+## This is under active development
 This repository contains code for performing multiome analysis on single-cell RNA (scRNA-seq) and ATAC-seq (chromatin accessibility) data from 10X Genomics. The code is designed to work after the CellRanger-ARC-2.0 pipeline has been run on individual samples and is built to handle multiple samples. For now, to run the respective Python scripts as batch jobs on an HPC system, submit the corresponding .sh files
 
 Currently, the code is still under development for automation with Snakemake, and for now, the analysis uses conda environments.
