@@ -1,4 +1,5 @@
 # Multiome Analysis for 10X Data (RNA + ATAC)
+## This is under active development
 This repository contains code for performing multiome analysis on single-cell RNA (scRNA-seq) and ATAC-seq (chromatin accessibility) data from 10X Genomics. The code is designed to work after the CellRanger-ARC-2.0 pipeline has been run on individual samples and is built to handle multiple samples. For now, to run the respective Python scripts as batch jobs on an HPC system, submit the corresponding .sh files
 
 Currently, the code is still under development for automation with Snakemake, and for now, the analysis uses conda environments.
@@ -23,9 +24,4 @@ Summary of Step 2:
 - **Calculates quality control metrics (like mitochondrial and ribosomal gene expression).**
 - **Runs Scrublet for detecting doublets and adds the results to the dataset.**
 - **Creates a directory for saving output files.**
-<<<<<<< HEAD
-- **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
-=======
-- **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
->>>>>>> 8fab45a (Added transcriptome_scripts directory)
 - **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
