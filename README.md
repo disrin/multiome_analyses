@@ -25,3 +25,10 @@ Summary of Step 2:
 - **Runs Scrublet for detecting doublets and adds the results to the dataset.**
 - **Creates a directory for saving output files.**
 - **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
+
+### Step3: Make QC plots
+- **Loads the .h5ad file output from step2 `{sample_name}-raw.h5ad`.**
+- **Generates histograms and violin plots for mitochondrial percentage, ribosomal percentage, gene detection, and doublet score.**
+- **Adds threshold lines to the plots to highlight cells that may be outliers based on QC metrics (e.g., high mitochondrial content, low gene detection).**
+- **Displays the total number of cells (barcodes) on top of each plot for reference.**
+- **Customizable Output: Saves the generated QC plots to the specified output directory as PNG files.**
