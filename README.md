@@ -23,9 +23,4 @@ Summary of Step 2:
 - **Calculates quality control metrics (like mitochondrial and ribosomal gene expression).**
 - **Runs Scrublet for detecting doublets and adds the results to the dataset.**
 - **Creates a directory for saving output files.**
-<<<<<<< HEAD
-- **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
-=======
-- **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
->>>>>>> 8fab45a (Added transcriptome_scripts directory)
 - **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
