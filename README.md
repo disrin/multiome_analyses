@@ -8,8 +8,7 @@ Currently, the code is still under development for automation with Snakemake, an
 ### Input
 The input paths - 
 "/path/to/batch#/sample_directory/"
-
-within the Sample directory are all Samples - Sample_001, Sample_002 and so on. 
+within the sample_directory are all Samples - Sample_001, Sample_002 and so on. 
 
 ### Step1: Cellbender
 Removes ambient RNA from scRNAseq data. Although CellRanger pipeline performs its own QC filtering, we use cellbender to remove any lingering RNA backgroung. CellRanger output '''raw_feature_bc_matrix.h5''' serves as CellBender input.
