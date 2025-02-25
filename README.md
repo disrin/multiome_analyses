@@ -27,6 +27,9 @@ Summary of Step 2:
 - **Saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file for next steps.**
 
 ### Step3: Make QC plots
+Here we set QC thresholds (can be modifed as needed in the .py file) and make plots for every QC parameter.
+
+Summary of step 3:
 - **Loads the .h5ad file output from step2 `{sample_name}-raw.h5ad`.**
 - **Generates histograms and violin plots for mitochondrial percentage, ribosomal percentage, gene detection, and doublet score.**
 - **Adds threshold lines to the plots to highlight cells that may be outliers based on QC metrics (e.g., high mitochondrial content, low gene detection).**
