@@ -7,7 +7,8 @@ Currently, the code is still under development for automation with Snakemake, an
 
 ### Input
 The input paths - 
-/path/to/batch#/Sample_directory/
+"/path/to/batch#/sample_directory/"
+
 within the Sample directory are all Samples - Sample_001, Sample_002 and so on. 
 
 ### Step1: Cellbender
@@ -22,4 +23,4 @@ Summary of step2 -
 **Calculates quality control metrics (like mitochondrial and ribosomal gene expression).**
 **Runs Scrublet for detecting doublets and adds the results to the dataset.**
 **Creates a directory for saving output files.** 
-**saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file fro next steps.**# Multiome_analyses
+**saves the entire AnnData object, including expression matrix, annotations, QC metrics, and other calculations (like doublet scores), into a new .h5ad file fro next steps.**
