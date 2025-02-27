@@ -48,4 +48,5 @@ Summary of step 4:
 - **Normalizes the data, applies log transformation, and saves these processed versions in different layers of the AnnData object.**
 - **Performs PCA for dimensionality reduction, calculates nearest neighbors, and visualizes the data with UMAP.**
 - **Loads a predefined list of cell cycle genes `lab_cell_cycle_genes.txt`, calculates S-phase and G2/M-phase scores, and generates visualizations for the UMAP and cell cycle phase distribution, saving them as image files.**
+- **Output=`{sample_name}_norm_filtered.h5ad`**
 
