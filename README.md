@@ -37,7 +37,7 @@ Summary of step 3:
 - **Adds threshold lines to the plots to highlight cells that may be outliers based on QC metrics (e.g., high mitochondrial content, low gene detection).**
 - **Displays the total number of cells (barcodes) on top of each plot for reference.**
 - **Customizable Output: Saves the generated QC plots to the specified output directory as PNG files.**
-- **Output = .png files
+- **Output = .png files**
 
 ### Step4: Filter and Normalize
 This code processes single-cell RNA-seq data by filtering, normalizing, and performing dimensionality reduction, followed by cell cycle analysis and visualization, saving results to output files.
